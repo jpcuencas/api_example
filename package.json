@@ -1,0 +1,52 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "start": "npm run build && node dist/app.js",
+    "dev": "nodemon src/app.ts"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "generate-password": "^1.4.2",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.8",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "rimraf": "^3.0.0",
+    "rxjs": "^6.5.3",
+    "ts-node": "^8.4.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.2",
+    "@types/fs-extra": "^8.0.1",
+    "@types/helmet": "0.0.45",
+    "@types/mongoose": "^5.5.29",
+    "@types/morgan": "^1.7.37",
+    "@types/node": "^12.12.11",
+    "@types/passport": "^1.0.1",
+    "@types/passport-jwt": "^3.0.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4",
+    "typescript": "^3.7.2"
+  }
+}
